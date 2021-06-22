@@ -11,7 +11,7 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="menu">
+      <nav class="menu">
         <div class="menu-center">
           <div class="menu__item menu__item_active">Model S</div>
           <div class="menu__item">Model X</div>
@@ -23,37 +23,37 @@
           <div class="menu-right__item">Магазин</div>
           <div class="menu-right__item">Войти</div>
         </div>
-      </div>
+      </nav>
       <div class="hamburger-menu">
         <input id="menu__toggle" type="checkbox">
         <label class="menu__btn" for="menu__toggle"><span></span></label>
       </div>
     </header>
-    <section name="main">
+    <section class="main">
       <div class="main-head">
         <h1 class="main-head__title">Model S</h1>
         <p class="main-head__subtitle">Добро пожаловать в будущее!</p>
       </div>
       <div class="main-item">
-        <div class="main-left-item">
-          <div class="main-left-item__item-1">
+        <div class="main-item__left">
+          <div class="main-item__item-1">
             <img src="images/Speed.svg" alt="speed">
             2,7 сек 0-100 км/час
           </div>
-          <div class="main-left-item__item-2">
+          <div class="main-item__item-2">
             <img src="images/Road icon.svg" alt="road">
             632 км запас хода
           </div>
         </div>
-        <div class="main-right-item">
-          <div class="main-right-item__item-1">
+        <div class="main-item__right">
+          <div class="main-item__item-3">
             <a href="">
               <img src="images/steering-wheel.svg" alt="">
               <img src="images/steering-wheel-red.svg" alt="">
               ТЕСТ ДРАЙВ
             </a>
           </div>
-          <div class="main-right-item__item-2">
+          <div class="main-item__item-4">
             <div class="button-1"> 
               <button class="button-1__text-1">ЗАКАЗАТЬ</button>
             </div>
@@ -64,32 +64,34 @@
         </div>
       </div>
     </section>
-    <section name="info">
-      <h2 class="info-title">Model S</h2>
+    <section class="info">
+      <h2 class="info__title">Model S</h2>
       <div class="description">
-        <div class="description-info">
-          <div class="description-info-title">Будущее вождение</div>
-          <div class="description-info-text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</div>
+        <div class="description-content">
+          <div class="description__title">Будущее вождение</div>
+          <div class="description__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</div>
         </div>
-        <div class="description-item">
-          <div class="description-item__item-1">
-            <img src="images/screen.svg" alt="screen">
-            17 дюймов Большой дисплей
-          </div>
-          <div class="description-item__item-2">
-            <img src="images/wifi.svg" alt="wifi">
-            Беспроводное обновление ПО Повышенная функциональность
-          </div>
-          <div class="description-item__item-3">
-            <img src="images/bag.svg" alt="bag">
-            894 литра Объем грузового пространства
+        <div class="description-container">
+          <div class="description-item">
+            <div class="description-item__item-1">
+              <img src="images/screen.svg" alt="screen">
+              17 дюймов Большой дисплей
+            </div>
+            <div class="description-item__item-2">
+              <img src="images/wifi.svg" alt="wifi">
+              Беспроводное обновление ПО Повышенная функциональность
+            </div>
+            <div class="description-item__item-3">
+              <img src="images/bag.svg" alt="bag">
+              894 литра Объем грузового пространства
+            </div>
           </div>
         </div>   
         <div class="down-item">
           <div class="down-item__item-1">
             <a href="">
               <img src="images/Group.svg" alt="i">
-             УЗНАТЬ БОЛЬШЕ
+            УЗНАТЬ БОЛЬШЕ
             </a>
           </div>
           <div class="down-item__item-2">
@@ -100,41 +102,45 @@
         </div>
       </div>
     </section>
-    <section name="safety">
-      <div class="safety-container">
-        <div class="safety-info">
-          <h2 class="safety-title">Самый безопасный автомобиль в  мире</h2>
-          <div class="safety-description">Модель S достигла   наивысшей оценки безопасности любого автомобиля   когда-либо испытанного, и установиларекорд по наименьшей  вероятноститравмы пассажиров - от несчастныхслучаев на   переднем, боковом, заднем сидении и в ДТП с переворотом   авто.</div>
+    <section class="security">
+      <div class="safety">
+        <div class="safety-content">
+          <h2 class="safety__title">Самый безопасный автомобиль в  мире</h2>
+          <div class="safety__text">Модель S достигла   наивысшей оценки безопасности любого автомобиля   когда-либо испытанного, и установиларекорд по наименьшей  вероятноститравмы пассажиров - от несчастныхслучаев на   переднем, боковом, заднем сидении и в ДТП с переворотом   авто.</div>
         </div>
-        <div class="safety-appraisal">
-          <h2 class="appraisal-title">Оценка защиты</h2>
-          <ul class="list-appraisal">
-            <li class="list-appraisal__in-front">СПЕРЕДИ
-              <img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star">
-            </li>
-            <li class="list-appraisal__sideways">СБОКУ
-              <img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star">
-            </li>
-            <li class="list-appraisal__stand">СБОКУ (СТОЙКА)
-              <img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star">
-            </li>
-            <li class="list-appraisal__driver">ВОДИТЕЛЬ
-              <img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star">
-            </li>
-            <li class="list-appraisal__passenger">ПАССАЖИР
-              <img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star">
-            </li>
-          </ul>
+        <div class="safety-container">
+          <div class="safety-container__appraisal">
+            <h2 class="sefety-container__title">Оценка защиты</h2>
+            <ul class="appraisal-list">
+              <li class="appraisal-list__in-dront">СПЕРЕДИ
+                <img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star">
+              </li>
+              <li class="appraisal-list__sideways">СБОКУ
+                <img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star">
+              </li>
+              <li class="appraisal-list__stand">СБОКУ (СТОЙКА)
+                <img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star">
+              </li>
+              <li class="appraisal-list__driver">ВОДИТЕЛЬ
+                <img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star">
+              </li>
+              <li class="appraisal-list__passenger">ПАССАЖИР
+                <img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star"><img src="images/Star.svg" alt="star">
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="safety-item">
-          <img src="images/security.svg" alt="security">
-          5 звезд безопасности
-        </div>
-        <div class="down__item">
+        <div class="sefety-container__total">
+          <div class="sefety-container__total_item">
+            <img src="images/security.svg" alt="security">
+            5 звезд безопасности
+          </div>
+        </div> 
+        <div class="down-item">
           <div class="down-item__item-1">
             <a href="">
               <img src="images/Group.svg" alt="i">
-             УЗНАТЬ БОЛЬШЕ
+            УЗНАТЬ БОЛЬШЕ
             </a>
           </div>
           <div class="down-item__item-2">
